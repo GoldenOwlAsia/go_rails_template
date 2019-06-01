@@ -1,0 +1,4 @@
+redis: redis-server
+worker: bundle exec sidekiq -c 2 -q default -q mailers
+web: bundle exec puma -C config/puma.rb -p 3000
+guard: bundle exec guard

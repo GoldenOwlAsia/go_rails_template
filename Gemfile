@@ -71,6 +71,14 @@ group :development do
   gem 'letter_opener'
   gem 'annotate'
   gem 'bullet'
+
+  # to watch and run tests automatically when files changed
+  gem 'guard'
+  gem 'guard-spring'
+  gem 'guard-rspec', require: false
+
+  # run groups of processes in a single command
+  gem 'foreman'
 end
 
 group :test do

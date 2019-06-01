@@ -15,7 +15,13 @@ Things you may want to cover:
 
 * Database initialization
 
+* Start local dev server
+
+    bundle exec foreman start -f Procfile.dev
+
 * How to run the test suite
+
+    bundle exec rspec spec/
 
 * Services (job queues, cache servers, search engines, etc.)
 
